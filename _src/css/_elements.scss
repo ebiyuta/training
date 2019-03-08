@@ -1,0 +1,64 @@
+.el_bgcBtn{
+  background-color: $accentColor;
+  color: $themeColor !important;
+  padding: 9px 13px 12px;
+  &::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 19px;
+    background-image: url(../img/icon_mail.svg);
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+}
+
+.el_arrowBtn{
+  position: relative;
+  background-color: $themeColor2;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 226px;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  &::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: inline-block;
+    background-image: url(../img/icon_rightArrow.png);
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    vertical-align: middle;
+  }
+}
+
+.el_iconBtn{
+  background-color: $themeColor2;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 226px;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  &::before{
+    content: '';
+    left: 20px;
+    display: inline-block;
+    background-image: url(../img/icon_mappin.svg);
+    width: 16px;
+    height: 25px;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 9px;
+  }
+}

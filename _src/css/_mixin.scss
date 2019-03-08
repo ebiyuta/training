@@ -1,0 +1,7 @@
+@mixin contentCentering() {
+  max-width: $contWidth;
+  padding-right: $contSpace;
+  padding-left: $contSpace;
+  margin-right: auto;
+  margin-left: auto;
+}

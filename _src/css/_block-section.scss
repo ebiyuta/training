@@ -1,0 +1,12 @@
+.bl_sect{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  &__topBg{
+    background-image: url(../img/top/bg_img02.jpg);
+    background-size: cover;
+  }
+  &__topBg2{
+    background-image: url(../img/top/bg_img03.jpg);
+    background-size: cover;
+  }
+}

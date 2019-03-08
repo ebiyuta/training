@@ -1,0 +1,16 @@
+.ly_header{  
+  height: 100px;
+  background-color: $themeColor;
+}
+
+.ly_body{
+  @include contentCentering();
+}
+
+.ly_footer{
+  padding-top: 70px;
+  padding-bottom: 60px;
+  background-image: url(../img/top/bg_img05.jpg);
+  background-size: cover;
+  background-position: center center;
+}
